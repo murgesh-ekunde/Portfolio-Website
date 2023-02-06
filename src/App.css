@@ -107,21 +107,21 @@ img {
 
 /*  Reusable Css Classes */
 .section {
-  padding: 6rem 0 2 rem;
+  padding: 6rem 0 2rem;
 }
 
-.section_title{
+.section__title{
   font-size: var(--h1-font-size);
   color: var(--title-color);
 }
 
-.section_subtitle {
+.section__subtitle {
   display: block;
   font-size: var(--small-font-size);
   margin-bottom:  4rem;
 }
 
-.section_title, .section_subtitle {
+.section__title, .section__subtitle {
   text-align: center;
 }
 
@@ -141,8 +141,8 @@ img {
 .button {
   display: inline-block;
   background-color: var(--title-color);
-  color: var(--caontainer-color);
-  padding: 1.25rem 2rem;
+  color: var(--container-color);
+  padding: 1rem 2rem;
   border-radius: 1rem ;
   font-weight: var(--smaller-font-size);
 }
@@ -151,29 +151,54 @@ img {
   background-color: var(--title-color-dark);
 }
 
-.button_icon {
+.button__icon {
   margin-left: var(--mb-0-5);
 }
 
 .button--flex{
-  display: inline-grid;
+  display: inline-flex;
   align-items: center;
 }
 
 /* Breakpoints */
 
+/* For Large Screen */
 @media screen  and (max-width:992px) {
   .container {
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
   }
+
+  .button {
+    padding: 1rem 1.75rem;
+  }
+
+  .button__icon {
+    width: 22px;
+    height: 22px;
+  }
 }
 
+/* For Medium Screen */
 @media screen  and (max-width:768px) {
-  
+  body {
+    margin: 0 0 var(--header-height) 0;
+  }
+
+  .section {
+    padding: 2rem 0 4rem;
+  }
+
+  .section__subtitle{
+    margin-bottom: var(--mb-3);
+  }
 }
 
+/* For Small Screen */
 @media screen  and (max-width:360px) {
+  :root {
+    --big-font-size :2.25rem;
+  }
   .container {
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
