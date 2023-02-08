@@ -11,6 +11,11 @@ function Header() {
   // Toggle Menu
   const [Toggle, showMenu] = useState(false);
   const [activeNav, setActiveNav] = useState("#home");
+
+  function toggleMenu(){
+    !Toggle ? showMenu(!Toggle) : showMenu()
+    }
+  
   return (
     <header className="header">
       <nav className="nav container">
@@ -56,10 +61,12 @@ function Header() {
             </li>
           </ul>
 
-          <i className="uil uil-times nav__close"></i>
+          <div className="nav__toggle" onClick={toggleMenu}>
+            <i className="uil uil-times nav__close" ></i>
+            </div>
         </div>
 
-        <div className="nav__toggle" onClick={() => showMenu(!Toggle)}>
+        <div className="nav__toggle" onClick={toggleMenu}>
           <i className="uil uil-apps"></i>
         </div>
       </nav>
