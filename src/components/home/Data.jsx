@@ -1,10 +1,11 @@
 import React from "react";
+import "./home.css"
 
 function Data() {
   return (
     
     <div className="home__data">
-      <h1 className="home__title"> Murgesh Ekunde 👋</h1>
+      <h1 className="home__title "> <span className="underline__effect">Murgesh</span> Ekunde 👋</h1>
       <h3 className="home__subtitle">Full Stack Web Developer</h3>
       <p className="home__description">
         I am a Fullstack Developer specialized in MERN Stack. Applying

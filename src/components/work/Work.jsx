@@ -6,7 +6,7 @@ function Work() {
   return (
     <section className="work section" id='portfolio'>
         <h2 className="section__title">
-            Portfolio
+        <span className="underline__effect">Portfolio</span>
         </h2>
         <span className="section__subtitle">Most recent projects</span>
 
