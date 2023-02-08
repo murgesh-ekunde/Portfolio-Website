@@ -8,23 +8,23 @@ export const projectsData = [
         image: Work1,
         title: 'Movie Booking App',
         category: "Full Stack Web",
-        demoLink: "",
-        sourceCode:""
+        demoLink: "https://guvi-webcode2-frontend.vercel.app/",
+        sourceCode:"https://github.com/murgesh-ekunde/Guvi-webcode2-frontend"
     },
     {
         id:2,
         image: Work2,
         title: 'Online class dashboard',
         category: "Full Stack Web",
-        demoLink: "",
-        sourceCode:""
+        demoLink: "https://zenclass-dashboard-frontend.vercel.app/",
+        sourceCode:"https://github.com/murgesh-ekunde/Zenclass-Dashboard-frontend"
     },
     {
         id:3,
         image: Work3,
         title: 'Admin Dashboard',
         category: "Frontend Web",
-        demoLink: "",
-        sourceCode:""
+        demoLink: "https://react-admin-dashboard-der677plz-murgesh-ekunde.vercel.app/",
+        sourceCode:"https://github.com/murgesh-ekunde/React-admin-dashboard"
     },
 ]
