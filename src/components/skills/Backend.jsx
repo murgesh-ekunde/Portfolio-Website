@@ -11,7 +11,7 @@ function Backend() {
 
             <div>
                 <h3 className="skills__name">MySQL</h3>
-                <span className="skills__level">Beginer</span>
+                <span className="skills__level">Beginner</span>
             </div>
             </div>
 
@@ -20,7 +20,7 @@ function Backend() {
 
             <div>
                 <h3 className="skills__name">NodeJS</h3>
-                <span className="skills__level">Inntermidiate</span>
+                <span className="skills__level">Intermediate</span>
             </div>
         </div>
 
@@ -29,7 +29,7 @@ function Backend() {
 
             <div>
                 <h3 className="skills__name">MongoDB</h3>
-                <span className="skills__level">Beginer</span>
+                <span className="skills__level">Beginner</span>
             </div>
         </div>
         </div>   
@@ -40,7 +40,7 @@ function Backend() {
 
             <div>
                 <h3 className="skills__name">AWS</h3>
-                <span className="skills__level">Beginer</span>
+                <span className="skills__level">Beginner</span>
             </div>
 
         </div>
