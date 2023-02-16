@@ -27,4 +27,13 @@ export const projectsData = [
         demoLink: "https://react-admin-dashboard-der677plz-murgesh-ekunde.vercel.app/",
         sourceCode:"https://github.com/murgesh-ekunde/React-admin-dashboard"
     },
+
+    {
+        id:4,
+        image: Work3,
+        title: 'AI Image Generation App',
+        category: "Full Stack App",
+        demoLink: "https://ai-image-generation-app-three.vercel.app/",
+        sourceCode:"https://github.com/murgesh-ekunde/AI-Image-Generation-App"
+    },
 ]
