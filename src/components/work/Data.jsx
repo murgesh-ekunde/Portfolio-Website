@@ -22,10 +22,10 @@ export const projectsData = [
     {
         id:3,
         image: Work3,
-        title: 'Admin Dashboard',
-        category: "Frontend Web",
+        title: 'Personal Blog App',
+        category: "Full Stack Web",
         demoLink: "https://react-admin-dashboard-der677plz-murgesh-ekunde.vercel.app/",
-        sourceCode:"https://github.com/murgesh-ekunde/React-admin-dashboard"
+        sourceCode:"https://blog-app-virid.vercel.app/"
     },
 
     {
