@@ -24,8 +24,8 @@ export const projectsData = [
         image: Work3,
         title: 'Personal Blog App',
         category: "Full Stack Web",
-        demoLink: "https://react-admin-dashboard-der677plz-murgesh-ekunde.vercel.app/",
-        sourceCode:"https://blog-app-virid.vercel.app/"
+        demoLink: "https://blog-app-virid.vercel.app/",
+        sourceCode:"https://github.com/murgesh-ekunde/Blog-App"
     },
 
     {
