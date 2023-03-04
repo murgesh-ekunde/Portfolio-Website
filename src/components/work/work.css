@@ -8,11 +8,15 @@
 .work__card {
     border-color: var(--container-color);
     border: 1px solid rgb(0, 0, 0, 0.1);
-    padding: 1.25rem;
+    padding: 1rem;
     border-radius: 1rem;
 }
 .work__img {
-    width: 295px;
+    width: 350px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 1rem;
     margin-bottom: var(--mb-1);
 }
@@ -35,9 +39,31 @@
     display: flex;
     align-items: center;
     margin-right: 1rem;
+    margin-top: 1rem;
     column-gap: 0.25rem;
 }
 
+.work__title {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  color: var(--title-color);
+}
+.stack__title{
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+  color: var(--title-color);
+}
+
+.techsctack__subtitle{
+  font-size: smaller;
+}
+
+div.credentials{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
 /* Breakpoints */
 
 /* For Large Screen */
@@ -54,7 +80,7 @@
  }
 
  .work__title {
-    margin-bottom: 0.25rem;
+    margin-bottom: 0.5rem;
  }
 }
 

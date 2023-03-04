@@ -21,8 +21,8 @@ function About() {
             libraries.
           </p>
 
-          <a download="" href={CV} className="button button--flex">
-            Download CV 
+          <a href="https://drive.google.com/file/d/1g-reDSPqrK7H8sa4LOxdHJCi_O1wwRDX/view?usp=share_link"  target="_blank" className="button button--flex">
+            Reume 
             <svg
                 class="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
